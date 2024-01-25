@@ -27,6 +27,7 @@ const prompts = [
 function shake() {
     sound.play();
     setTimeout(changeText, 800)
+    tekst.innerHTML = "..."
 }
 
 function changeText() {
